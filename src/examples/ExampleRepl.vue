@@ -27,6 +27,9 @@ function updateExample() {
     hash = 'hello-world'
     location.hash = `#${hash}`
   }
+
+
+
   store.setFiles(
     preferSFC.value
       ? resolveSFCExample(data[hash], preferComposition.value)
